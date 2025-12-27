@@ -1,0 +1,27 @@
+{
+  "name": "messages-server",
+  "version": "2.0.3",
+  "description": "messages in the cli",
+  "homepage": "https://github.com/LunnaBoo/messages-server#readme",
+  "bugs": {
+    "url": "https://github.com/LunnaBoo/messages-server/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LunnaBoo/messages-server.git"
+  },
+  "license": "UNLICENSED",
+  "author": "lunnaboo",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.1",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "pg": "^8.16.3",
+    "sqlite3": "^5.1.7"
+  }
+}
